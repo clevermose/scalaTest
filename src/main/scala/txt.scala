@@ -3,9 +3,6 @@ import java.io.File
 import scala.io.Source
 
 object txt {
-
-  val  s = "abc"
-
   def main(args: Array[String]) {
 
     //    for (line <- Source.fromFile("D:\\scala\\src\\main\\scala\\txt.scala", "UTF-8").getLines()) {
@@ -28,5 +25,4 @@ object txt {
   def widthOfLength(s: String) = s.length.toString.length
 
 
-  override def toString = s"txt($s)"
 }
